@@ -98,9 +98,8 @@ div[class^='col']{
   align-items: center;
 
 }
-
 .elemento{
   width: 99.4px;
   height: 96px;
-
+  visibility: hidden;
 }
