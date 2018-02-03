@@ -96,10 +96,8 @@ div[class^='col']{
   flex-flow: column wrap;
   justify-content: flex-end;
   align-items: center;
-
 }
-.elemento{
+.elemento, .desaparecer{
   width: 99.4px;
   height: 96px;
-  visibility: hidden;
 }
