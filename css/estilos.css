@@ -101,3 +101,11 @@ div[class^='col']{
   width: 99.4px;
   height: 96px;
 }
+.main-titulo2{
+  font-family: gameFont;
+  font-size: 3em;
+  color: #DCFF0E;
+  width: 100%;
+  display: none;
+  text-align: center;
+}

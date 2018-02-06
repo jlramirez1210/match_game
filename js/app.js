@@ -107,7 +107,28 @@ function tiempo(){
 }
 //Cuando se acaba el tiempo
 function liftOff(){
-  alert("termino!!!");
+  $('.panel-tablero').animate(
+    {
+      width: "-=900",
+      height: "-=900",
+      opacity: "-=0.9"
+    }, 3000, function(){
+      $(this).hide();
+    });
+    $('.panel-score').animate(
+      {
+        width: "+=900"
+      }, 3000, function(){
+        $('.main-titulo2').show();
+    });
+    $('.time').animate(
+      {
+        width: "-=100",
+        height: "-=100",
+        opacity: "-=0.9"
+      }, 3000, function(){
+        $(this).hide();
+      });
 }
 //Quitamos estilos predertinados del plugin
 function customTimer(){
